@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Image Slider</title>
+        <style>
+        div.item{
+            width:400px;
+            height:400px;
+            position: relative;
+            overflow: hidden;
+            float: left;
+             }
+             div.item a.background{
+                 display: block;
+                width:400px;
+                height:400px;
+               background-image: url(img/img2.jpg);
+             }
+             div.item span.cover1{
+                 display: block;
+                 width:400px;
+                 height: 400px;
+                 background-color:white;
+                 text-align: center;
+                 font-size: 25px;
+                 color:black;
+                 line-height: 400px;
+                 position: absolute;
+                 top:0px;
+                 left:-500px;
+                 opacity: 0.7;
+                 transition: all 1s ease-in-out 0s;
+             }
+             div.item span.cover2{
+                 display: block;
+                 width:400px;
+                 height: 400px;
+                 background-color:white;
+                 text-align: center;
+                 font-size: 25px;
+                 color:black;
+                 line-height: 400px;
+                 position: absolute;
+                 top:-500px;
+                 left:0px;
+                 opacity: 0.7;
+                 transition: all 1s ease-in-out 0s;
+             }
+             div.item span.cover3{
+                 display: block;
+                 width:400px;
+                 height: 400px;
+                
+                 background-color:white;
+                 text-align: center;
+                 font-size: 25px;
+                 color:black;
+                 line-height: 400px;
+                 position: absolute;
+                 top:0px;
+                 left:1000px;
+                 opacity: 0.7;
+                 transition: all 1s ease-in-out 0s;
+             }
+             div.item span.cover4{
+                 display: block;
+                 width:400px;
+                 height: 400px;
+                 background-color:white;
+                 text-align: center;
+                 font-size: 25px;
+                 color:black;
+                 line-height: 400px;
+                 position: absolute;
+                 top:500px;
+                 left:0px;
+                 opacity: 0.7;
+                 transition: all 1s ease-in-out 0s;
+             }
+             div.item span.cover5{
+                 display: block;
+                 width:400px;
+                 height: 400px;
+                 background-color:white;
+                 text-align: center;
+                 font-size: 25px;
+                 color:black;
+                 line-height: 400px;
+                 position: absolute;
+                 top:500px;
+                 left:0px;
+                 opacity: 0.7;
+                 transition: all 1s ease-in-out 0s;
+             }
+             div.item span.cover6{
+                 display: block;
+                 width:400px;
+                 height: 400px;
+                 background-color:white;
+                 text-align: center;
+                 font-size: 25px;
+                 color:black;
+                 line-height: 400px;
+                 position: absolute;
+                 top:500px;
+                 left:0px;
+                 opacity: 0.7;
+                 transition: all 1s ease-in-out 0s;
+             }
+            
+             div.item:hover span.cover1{
+              top:0px;
+              left:0px;
+             }
+             div.item:hover span.cover2{
+              top:0px;
+              left:0px;
+             }
+             div.item:hover span.cover3{
+              top:0px;
+              left:0px;
+             }
+             div.item:hover span.cover4{
+              top:0px;
+              left:0px;
+             }
+             div.item:hover span.cover5{
+              top:0px;
+              left:0px;
+             }
+             div.item:hover span.cover6{
+              top:0px;
+              left:0px;
+             }
+             
+
+        </style>
+    </head>
+    <body>
+        <div class="item">
+            <a href="#"class="background"></a>
+            <span class="cover1">
+            <h3>Left</h3>
+            </span>
+        </div>
+        <div class="item">
+            <a href="#"class="background"></a>
+            <span class="cover2">
+            <h3>Top</h3>
+            </span>
+        </div>
+        <div class="item">
+            <a href="#"class="background"></a>
+            <span class="cover3">
+            <h3>Right</h3>
+            </span>
+        </div>
+        <div class="item">
+            <a href="#"class="background"></a>
+            <span class="cover4">
+            <h3>Pop from bottom left</h3>
+            </span>
+        </div>
+        <div class="item">
+                <a href="#"class="background"></a>
+                <span class="cover5">
+                <h3>Bottom</h3>
+                </span>
+            </div>
+            <div class="item">
+                <a href="#"class="background"></a>
+                <span class="cover6">
+                <h3>Hide towords bottom</h3>
+                </span>
+            </div>
+       </body>
+</html> 
